@@ -1,0 +1,121 @@
+# Byte-compiled / optimized / DLL files
+pycache/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+pycache/
+local_settings.py
+db.sqlite3
+media
+
+# If your build process includes running collectstatic, then you probably don't want collected static files in your git repository. 
+# Comment out if using django-admin collectstatic
+staticfiles/
+
+# You can also comment out if you have different versions of Django, for example Django 1.4 and 1.7
+# django-1.7
+*.mo
+*.pot
+*.pyc
+
+# Translations
+*.mo
+
+# Django migrations
+*.log
+*.pot
+*.pyc
+pycache/
+*.sqlite3
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# PyCharm
+.idea/
+.idea/*
+.idea/**/
+*.iml
+
+# VS Code
+.vscode/
+
+# Virtual Environment
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# pytest
+.cache
+
+# mypy
+.mypy_cache/
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+pypackages/
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# dotenv
+.env
+.env.*
+
+# mkdocs documentation
+/site
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.coverage_rc
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Pyre type checker
+.pyre/
+
+# End of list
